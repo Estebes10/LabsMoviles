@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="optional">Optional</string>
+    <string name="proximity">Proximity</string>
+    <string name="vibrateExample">Vibrate Example</string>
+    <string name="dialog">You are close</string>
+    <string name="customNotification"> Custom Notification</string>
+</resources>

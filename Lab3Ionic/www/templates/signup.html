@@ -1,0 +1,12 @@
+<ion-view title="Signup" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="signup-form1" class="list">
+      <ion-list id="signup-list1">
+        <label class="item item-input" id="input1">
+          <input type="text" placeholder="City" ng-model="mdl.name">
+        </label>
+      </ion-list>
+      <a ui-sref="home({ city: mdl.name})" id="signup-button2" class="button button-positive button-block">Get Weather Information</a>
+    </form>
+  </ion-content>
+</ion-view>

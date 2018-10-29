@@ -1,0 +1,32 @@
+<ion-view title="Signup" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="signup-form1" class="list">
+      <ion-list id="signup-list1">
+        <label class="item item-input" id="signup-input1">
+          <input type="text" placeholder="Name" ng-model="mdl.name">
+        </label>
+        <label class="item item-input" id="signup-input2">
+          <input type="email" placeholder="Email" ng-model="mdl.email">
+        </label>
+        <label class="item item-input" id="signup-input3">
+          <input type="password" placeholder="Password" ng-model="mdl.password">
+        </label>
+      </ion-list>
+      <ion-checkbox id="signup-checkbox1" name="Single" ng-model="mdl.check">Single</ion-checkbox>
+      <ion-radio id="signup-radio2" ng-model="mdl.radio1">Male</ion-radio>
+      <ion-radio id="signup-radio3" ng-model="mdl.radio2">Radio</ion-radio>
+      <ion-item class="range range-positive" id="signup-range1">Age
+        <input type="range" value="25" min="0" max="100" step="1" ng-model="mdl.range1">
+      </ion-item>
+      <label class="item item-select" id="signup-select1">
+        <span class="input-label">Select country</span>
+        <select>
+          <option>Querétaro</option>
+          <option>Monterrey</option>
+          <option>CDMX</option>
+        </select>
+      </label>
+      <a ui-sref="home({input1: mdl.name, input2: mdl.email, input3: mdl.password, check: mdl.check, radio1: mdl.radio1, radio2: mdl.radio2, range1: mdl.range1})" id="signup-button2" class="button button-positive button-block">Form example</a>
+    </form>
+  </ion-content>
+</ion-view>

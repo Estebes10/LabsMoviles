@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585645697498",
+    "firebase_url": "https://mobileclasses-64425.firebaseio.com",
+    "project_id": "mobileclasses-64425",
+    "storage_bucket": "mobileclasses-64425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585645697498:android:e9d889885d8e4e7f",
+        "android_client_info": {
+          "package_name": "dev.estebes10.com.lab3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585645697498-p635st1ak31jva8deoeseum2p1h70rp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.estebes10.com.lab3",
+            "certificate_hash": "f6f8e9a4309e3d832fb80236abcba745e647c561"
+          }
+        },
+        {
+          "client_id": "585645697498-b14uhqsvrdm1shm1atm3c7e5ninijjo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9T-QANYYxzXRUE_kikPrlryrnnQ4B4jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585645697498-b14uhqsvrdm1shm1atm3c7e5ninijjo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

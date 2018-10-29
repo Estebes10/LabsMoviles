@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="login">Login</string>
+    <string name="invited">Invited</string>
+    <string name="textWelcome"> Welcome to my App</string>
+    <string name="settings">Settings</string>
+</resources>
