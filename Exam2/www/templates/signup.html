@@ -1,0 +1,16 @@
+<ion-view title="Signup" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="signup-form1" class="list">
+      <label class="item item-select" id="signup-select1" name="company">
+        <span class="input-label">Select company</span>
+        <select ng-model="mdl.name">
+          <option value="AAPL">Apple Computer</option>
+          <option value="GE">General Electric Company</option>
+          <option value="SBUX">Starbucks Corporation</option>
+          <option value="WBA">Walgreens Company</option>
+        </select>
+      </label>
+    </form>
+    <a ui-sref="home({ name: mdl.name })" id="signup-button7" class="button button-positive button-block">Get Info</a>
+  </ion-content>
+</ion-view>
